@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login Application</string>
+
+    <string name="hint_nombre_usuario">Nombre de Usuario</string>
+    <string name="hint_pass">Contraseña</string>
+
+
+    <string name="btn_crear_cuenta">Crear cuenta</string>
+    <string name="btn_acceder">Acceder</string>
+</resources>

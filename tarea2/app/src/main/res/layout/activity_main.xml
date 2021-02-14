@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <!-- Scroll para dispositivos pequeños -->
+    <ScrollView
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Fondo -->
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@mipmap/logo">
+            </ImageView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:background="@drawable/edit_text_background"
+                    android:id="@+id/et_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_nombre_usuario"
+                    android:layout_marginBottom="16dp">
+                </EditText>
+                <EditText
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:background="@drawable/edit_text_background"
+                    android:id="@+id/et_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_pass">
+
+                </EditText>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+            </View>
+
+            <Button
+                android:textColor="@color/white"
+                android:background="@color/gris_700"
+                android:id="@+id/btn_acceder"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_acceder">
+            </Button>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="o">
+            </TextView>
+            <TextView
+                android:textColor="@color/gris_700"
+                android:id="@+id/btn_crear_cuenta"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_crear_cuenta">
+            </TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+            </View>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
