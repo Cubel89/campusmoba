@@ -31,12 +31,15 @@
                 android:src="@mipmap/logo">
             </ImageView>
 
+            <!-- Separacion -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="60dp">
 
             </View>
 
+
+            <!-- Contenedor de los campos de texto --> 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,11 +70,15 @@
 
             </LinearLayout>
 
+            <!-- Separacion -->
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="60dp">
 
             </View>
+
+            <!-- Boton de acceder -->
 
             <Button
                 android:textColor="@color/white"
@@ -88,6 +95,8 @@
                 android:layout_height="wrap_content"
                 android:text="o">
             </TextView>
+
+            <!-- Futuro boton para crear cuenta -->
             <TextView
                 android:textColor="@color/gris_700"
                 android:id="@+id/btn_crear_cuenta"
@@ -97,6 +106,7 @@
                 android:text="@string/btn_crear_cuenta">
             </TextView>
 
+            <!-- Separacion -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="60dp">
