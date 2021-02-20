@@ -39,7 +39,7 @@
             </View>
 
 
-            <!-- Contenedor de los campos de texto --> 
+            <!-- Contenedor de los campos de texto -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
